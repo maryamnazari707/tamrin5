@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "yekan";
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/yekanweb-regular.eot') format("embedded-opentype"), url('../fonts/yekanweb-regular.woff') format("woff"), url('../fonts/yekanweb-regular.ttf') format("truetype"), url('../fonts/yekanweb-regular.svg') format("svg");
+}
+
+body {
+    font-family: "yekan";
+    padding-bottom: 300px;
+}
+/*---------------------Header Style----------------------*/
+
+.header {
+    min-height: 100px;
+    background-image: url(../images/fake_brick.png);
+    border-bottom: 3px solid #f29e5d
+}
+
+.title-head h1 {
+    text-align: right;
+    font-size: 20px;
+    color: #fff;
+}
+
+.title-head h4 {
+    text-align: right;
+    color: #f4ba33;
+}
+
+.login a {
+    margin-top: 10px;
+}
+
+.login i {
+    padding-left: 10px;
+}
+
+@media (max-width: 350px) and (min-width: 0px) {
+    .title-head h1 {
+        font-size: 12px;
+    }
+}
+
+.tar {
+    text-align: right;
+}
+
+.about-content {
+    padding: 10px;
+    color: #2d76eb
+}
+
+.mgt10 {
+    margin-top: 10px;
+}
+
+.my-icon {
+    position: absolute;
+    top100px;
+}
+
+.gray {
+    background-color: #9b9696;
+    padding: 10px;
+}
+
+.box-body {
+    background-color: #3faaf8;
+    text-align: right;
+    padding: 10px;
+}
+
+.box-head {
+    text-align: center;
+    color: #d93030
+}
+.red{height: 700px;background-color: #dc0e0e;}
+.blue{height: 700px;background-color: dodgerblue;}
